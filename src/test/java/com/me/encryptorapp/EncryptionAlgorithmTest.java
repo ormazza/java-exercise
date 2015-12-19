@@ -33,7 +33,7 @@ public class EncryptionAlgorithmTest {
 			tester.encryptFile( location + "_text.txt", location + "_text_encrypted.txt"
 					, location + "_key.txt");
 			tester.decryptFile(location + "_text_encrypted.txt", location + "_text_encrypted_decrypted.txt", location + "_key.txt");
-			String res = FileHandler.readFile(location + "_text_decrypt_encrypted.txt");
+			String res = FileHandler.readFile(location + "_text_encrypted_decrypted.txt");
 			assertEquals(res,textTest);
 		} catch (Exception e) {
 			fail(e.getMessage());

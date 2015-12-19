@@ -1,0 +1,6 @@
+<ProcessSettings>
+	<Algorithm>DoubleShiftUp</Algorithm>
+	<KeyPath>c:\temp\encryptor</KeyPath>
+	<SourceDirectory>c:\temp\encryptor\source</SourceDirectory>
+	<SourceFileName>c:\temp\encryptor\file.txt</SourceFileName>
+</ProcessSettings>
